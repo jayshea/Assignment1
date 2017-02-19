@@ -6,4 +6,6 @@ Jacintha Johnson
 Hello Octocat
 -------------
 
-I love Octocat. She's the coolest cat in town. ![](/Users/jacinthajohnson/Documents/octocat.png)
+I love Octocat. She's the coolest cat in town.
+
+![](octocat.png)
