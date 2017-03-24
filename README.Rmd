@@ -1,0 +1,29 @@
+---
+title: "Assignment 1"
+author: "Jacintha Johnson"
+date: "2/19/2017"
+output: github_document
+---
+## Hello Octocat
+I love Octocat. She's the coolest cat in town.
+
+![](octocat.png)
+
+```{r quick_look, echo=TRUE}
+data("anscombe")
+dim.data.frame(anscombe)
+colnames(anscombe)
+head(anscombe)
+tail(anscombe)
+summary(anscombe)
+```
+
+
+
+```{r xy_plot, echo=FALSE, fig.align='center', fig.height=8, fig.width=8, dev = 'svg', fig.path='figure/'}
+data("anscombe") 
+with(anscombe, plot(x1, y1))
+abline(lm(y1 ~ x1, data = anscombe))
+```
+
+
