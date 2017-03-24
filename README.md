@@ -66,12 +66,4 @@ summary(anscombe)
     ##  3rd Qu.: 8.570   3rd Qu.:8.950   3rd Qu.: 7.98   3rd Qu.: 8.190  
     ##  Max.   :10.840   Max.   :9.260   Max.   :12.74   Max.   :12.500
 
-<img src="figure/xy_plot-1.png" style="display: block; margin: auto;" />
-
-    ## 
-    ## Call:
-    ## lm(formula = y1 ~ x1, data = anscombe)
-    ## 
-    ## Coefficients:
-    ## (Intercept)           x1  
-    ##      3.0001       0.5001
+<img src="figure/xy_plot-1.svg" style="display: block; margin: auto;" />
